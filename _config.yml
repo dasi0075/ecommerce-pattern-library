@@ -1,0 +1,23 @@
+permalink: pretty
+theme: jekyll_patternbot
+patternbot:
+  title: "Art Exposé"
+  description: |
+    Where art meets entretainment in apparel.
+  font_url: "https://fonts.googleapis.com/css?family=Alef|Meddon|Montserrat:300,400|Mr+Dafoe|Playfair+Display&display=swap"
+  colors:
+    background: "--color-secondary"
+    accent: "--color-coral"
+    patterns:
+      brand.logos: "--color-purple"
+  rationales:
+    typefaces.primary: |
+      Montserrat was selected because it is a classic font-for classic creatures.
+    typefaces.secondary: |
+      Playfair is only to be used ...
+    typefaces.terciary: |
+      Meddon is only to be used ...
+    colors.primary: |
+      The primary colours represent ...
+    colors.secondary: |
+      The secondary colours are more neutral, continuing with the earth tones.

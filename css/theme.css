@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #368781;
+  --color-secondary: #fffbee;
+  --color-blue: #46527c;
+  --color-coral: #ce808a;
+  --color-purple: #8c5a84;
+
+
+  --font-primary: 'Montserrat';
+  --font-secondary: 'Playfair';
+  --font-terciary: 'Neonir';
+}
+
+html {
+  font-family: var(--font-primary);
+}
