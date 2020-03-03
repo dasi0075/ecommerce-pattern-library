@@ -1,8 +1,22 @@
-header {
-  background-color: var(--color-primary);
-}
 
 img {
   width: 40%;
-  max-width: auto;
+}
+
+header {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.nav-content {
+  background-color: var(--color-blue);
+  color: var(--color-secondary);
+}
+
+.nav a {
+  color: var(--color-secondary);
+  text-decoration: none;
 }
