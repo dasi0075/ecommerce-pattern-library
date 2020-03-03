@@ -1,0 +1,8 @@
+header {
+  background-color: var(--color-primary);
+}
+
+img {
+  width: 40%;
+  max-width: auto;
+}
