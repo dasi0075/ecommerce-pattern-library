@@ -19,6 +19,11 @@ header {
 .nav a {
   color: var(--color-secondary);
   text-decoration: none;
+  font-family: Montserrat;
+}
+
+a:hover {
+  color: var(--color-coral);
 }
 
 .main-title {
