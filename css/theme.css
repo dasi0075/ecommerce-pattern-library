@@ -14,3 +14,36 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: Meddon;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-blue)
+}
+
+a:hover {
+  color: var(--color-purple)
+}
+
+body {
+  font-family: Playfair;
+  font-weight: normal;
+  font-style: normal;
+}
+
+mark {
+  font-family: Playfair;
+  font-weight: bold;
+  background-color: var(--color-coral);
+}

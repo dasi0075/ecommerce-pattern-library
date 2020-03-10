@@ -10,6 +10,9 @@ patternbot:
     accent: "--color-coral"
     patterns:
       brand.logos: "--color-purple"
+
+      icons.icons.twitter: "orange"
+
   rationales:
     typefaces.primary: |
       Montserrat was selected because it is a classic font-for classic creatures.
