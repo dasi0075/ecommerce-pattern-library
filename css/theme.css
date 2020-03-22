@@ -16,7 +16,7 @@ html {
 }
 
 h1 {
-  font-family: Meddon;
+  font-family: var(--font-terciary);
   font-weight: normal;
   font-style: normal;
 }
