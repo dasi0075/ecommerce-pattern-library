@@ -1,3 +1,37 @@
 ---
 layout: default
 ---
+
+<div class="grid">
+  <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+    {% pattern forms/basic %}
+    {% pattern forms/basic %}
+    <div class="grid">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        {% pattern forms/basic %}
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        {% pattern forms/basic %}
+      </div>
+    </div>
+    {% pattern forms/select %}
+  </div>
+  <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+    <div class="grid">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        {% pattern forms/basic %}
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <a class="icon-link exa" href="#">
+          <i class="icon i-1">
+            <svg><use xlink:href="/images/icons.svg#icon-id"></use></svg>
+          </i>
+          <span class="icon-label">Icon label</span>
+        </a>
+      </div>
+    </div>
+    {% pattern forms/basic %}
+    {% pattern forms/select %}
+  </div>
+
+</div>
