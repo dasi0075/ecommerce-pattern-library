@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% pattern banner/banner %}
+
 <div class="gutter pad-t">
   <h1 class="text-center">Products</h1>
 
@@ -9,15 +11,19 @@ layout: default
 
   <div class="grid text-center">
     <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3">
-      {% pattern cards/cards %}
+      {% product in site.products %}
+        {% pattern cards/product-card data=product %}
+      {% endfor %}
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3">
-      {% pattern cards/cards %}
+      {% product in site.products %}
+        {% pattern cards/product-card data=product %}
+      {% endfor %}
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-3 xl-1-3">
-      {% pattern cards/cards %}
+      {% product in site.products %}
+        {% pattern cards/product-card data=product %}
+      {% endfor %}
     </div>
   </div>
 </div>
-
-{% pattern buttons/basic %}
