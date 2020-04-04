@@ -17,21 +17,25 @@ patternbot:
       icons.icons.cart: "orange"
       icons.icons.facebook: "orange"
 
-  rationales:
-    typefaces.primary: |
-      Montserrat was selected because it is clean and it pairs well with Meddon..
-    typefaces.secondary: |
-      Playfair is only to be used for main titles inside banner.
-    typefaces.terciary: |
-      Meddon is only to be used for h1
-    colors.primary: |
-      The primary colours represent the theme of the website
-    colors.secondary: |
-      The secondary colours are more sutle and peaceful.
+rationales:
+  typefaces.primary: |
+    Montserrat was selected because it is clean and it pairs well with Meddon..
+  typefaces.secondary: |
+    Playfair is only to be used for main titles inside banner.
+  typefaces.terciary: |
+    Meddon is only to be used for h1
+  colors.primary: |
+    The primary colours represent the theme of the website
+  colors.secondary: |
+    The secondary colours are more sutle and peaceful.
 
-  layouts:
-    default: |
-      The default layout should be used for almost every page, it includes the website primary header and footer.
+layouts:
+  default: |
+    The default layout should be used for almost every page, it includes the website primary header and footer.
+
+collections:
+  products:
+    output: true
 
 patterns:
   banner:
@@ -43,13 +47,13 @@ patterns:
       type: string
       example: "An immersion of arts and entertainment in one piece"
 
-  product-card:
-    width: 400
-    description: |
-      Thre product card is used on the product listing page to display the Products
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+product-card:
+  width: 400
+  description: |
+    Thre product card is used on the product listing page to display the Products
+  fields:
+    - name: data
+      type: object
+      data:
+        source: "site.products[0]"
+        type: Product
