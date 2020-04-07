@@ -41,25 +41,4 @@ defaults:
   - scope:
       path: _products
     values:
-      layout: product
-
-patterns:
-  banner:
-    fields:
-      -name: heading
-      type: string
-      example: "Art and Design Apparel"
-      -name: text
-      type: string
-      example: "An immersion of arts and entertainment in one piece"
-
-product-card:
-  width: 400
-  description: |
-    Thre product card is used on the product listing page to display the Products
-  fields:
-    - name: data
-      type: object
-      data:
-        source: "site.products[0]"
-        type: Product
+      layout: products

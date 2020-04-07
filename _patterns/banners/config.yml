@@ -1,0 +1,9 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Art and Design Apparel"
+      - name: text
+        type: string
+        example: "An immersion of arts and entertainment in one piece"
