@@ -1,9 +1,10 @@
 ---
-layout: product
+layout: products
 ---
+  "{{All of our products are made with the highest quality}}"
 
 name: "Bono"
-description: |
+description: A t-shirt with 'Bono Vox' on it
   Bono Vox apparel
 image: "/images/bono.png"
 price: 25

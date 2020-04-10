@@ -1,9 +1,10 @@
 ---
-layout: product
+layout: products
 ---
+  "{{All of our products are made with the highest quality}}"
 
 name: "Love"
-description: |
+description: A t-shirt written 'Love' in it
   Love Tee apparel
 image: "/images/love-tee.png"
 price: 25
