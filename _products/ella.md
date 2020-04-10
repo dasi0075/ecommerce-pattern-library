@@ -1,4 +1,6 @@
 ---
+layout: product
+---
 
 name: "Ella"
 description: |

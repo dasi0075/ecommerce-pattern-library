@@ -1,4 +1,6 @@
 ---
+layout: product
+---
 
 name: "Diana"
 description: |
