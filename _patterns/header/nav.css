@@ -39,3 +39,63 @@ a:hover {
   background-color: var(--color-blue);
   border-radius: 20px;
 }
+
+.nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-check:checked ~ ul {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+  background-color: var(--color-blue);
+}
+
+input[type="checkbox"].nav-check + label::before {
+  display: none;
+}
+
+.nav-content {
+  z-index: 1000;
+  top: -20px;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+  padding-top: 1.3em;
+}
+
+.nav-close {
+  display: none;
+}
+
+a:hover {
+  color: var(--color-coral);
+}
+
+.nav-list {
+  border-bottom: .1px solid #fff;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
