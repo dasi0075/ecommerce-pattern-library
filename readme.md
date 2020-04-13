@@ -1,4 +1,4 @@
-#Art Exposé: An ecommerce website
+#Art Exposé: An e-commerce website
 
 Art Exposé combines art and entertainment in one piece. Apparel of high quality depicting artists and beauty with great design and imagery.
 
