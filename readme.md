@@ -1,3 +1,11 @@
+#Art Exposé: An ecommerce website
+
+Art Exposé combines art and entertainment in one piece. Apparel of high quality depicting artists and beauty with great design and imagery.
+
+Hosted at: https://artexpose.netlify.com/promotion/
+Library at: http://localhost:4000/pattern-library/#brand
+
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
