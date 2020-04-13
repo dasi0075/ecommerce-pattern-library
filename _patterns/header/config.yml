@@ -1,3 +1,13 @@
 title: "Header"
 description: |
   Header should be used in all pages regardless.
+
+patterns:
+  nav:
+    title: "main navigation"
+    description: |
+      this will be the main navigation
+    fields:
+      - name: 'products'
+        type: 'string'
+        example: 'welcome'

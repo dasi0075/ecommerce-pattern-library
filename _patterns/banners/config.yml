@@ -7,3 +7,12 @@ patterns:
       - name: text
         type: string
         example: "An immersion of arts and entertainment in one piece"
+
+  banner-nav:
+    title: "main navigation"
+    description: |
+      this will be the main navigation
+    fields:
+      - name: 'products'
+        type: 'string'
+        example: 'welcome'
