@@ -3,6 +3,17 @@ description: |
   Cards should be used to display products.
 
 patterns:
+  cards:
+    width: 300
+    description: |
+      The card is used on the product listing page to display the Products
+    fields:
+      - name: 'data'
+        type: 'object'
+        data: 'product'
+          source: "site.products[0]"
+          type: Product
+
   product-card:
     width: 300
     description: |
@@ -10,6 +21,6 @@ patterns:
     fields:
       - name: 'product'
         type: 'card'
-        data:
+        data: 'product'
           source: "site.products[0]"
           type: Product
