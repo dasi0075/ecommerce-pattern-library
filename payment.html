@@ -2,44 +2,52 @@
 layout: default
 Title: Payment
 ---
-  {% pattern banners/banner-nav products="Payment" %}
+{% pattern banners/banner-nav products="Payment" %}
+
 <div class="gutter pad-t">
-
   <h2 class="text-center">Choose payment method below</h2>
-
-  <div class="grid gutter">
-    <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1 gutter">
-      {% pattern forms/basic %}
-      {% pattern forms/basic %}
-      <div class="grid">
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
-          {% pattern forms/basic %}
-        </div>
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
-          {% pattern forms/basic %}
-        </div>
-      </div>
-      <div class="">
-      {% pattern forms/select %}
-      </div>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
-      <div class="grid">
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          {% pattern forms/basic %}
-        </div>
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          <a class="icon-link" href="/images/credit_card.svg">
-            <i class="icon i-1">
-              <svg><use xlink:href="/images/credit_card.svg"></use></svg>
+  <div>
+    <i class="icon i-64">
+      <svg><use xlink:href="/images/icons.svg#amazon"</svg>
+      </i>
+      <i class="icon i-64">
+        <svg><use xlink:href="/images/icons.svg#credit_card"</svg>
+        </i>
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#visa"</svg>
+          </i>
+          <i class="icon i-64">
+            <svg><use xlink:href="/images/icons.svg#paypal"</svg>
             </i>
-          </a>
-        </div>
-      </div>
-      {% pattern forms/basic %}
-      {% pattern forms/select %}
-      {% pattern forms/basic %}
-    </div>
+          </div>
+          <div class="grid gutter">
+            <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1 gutter">
+              {% pattern forms/basic %}
+              {% pattern forms/basic %}
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
+                  {% pattern forms/basic %}
+                </div>
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
+                  {% pattern forms/basic %}
+                </div>
+              </div>
+              <div class="">
+                {% pattern forms/select %}
+              </div>
+            </div>
+            <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+                  {% pattern forms/basic %}
+                  {% pattern forms/select %}
+                  {% pattern forms/basic %}
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+                  {% pattern forms/basic %}
+                </div>
+              </div>
 
-  </div>
+            </div>
+
+          </div>
 </div>
