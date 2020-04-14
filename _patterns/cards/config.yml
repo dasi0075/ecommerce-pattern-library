@@ -8,8 +8,8 @@ patterns:
     description: |
       The product card is used on the product listing page to display the Products
     fields:
-      - name: 'data'
-        type: 'form'
+      - name: 'product'
+        type: 'card'
         data:
           source: "site.products[0]"
           type: Product
