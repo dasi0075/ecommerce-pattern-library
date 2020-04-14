@@ -10,13 +10,13 @@
   border-color: var(--color-primary);
 }
 
-.btn-ghost {
+.btn-checkout {
   background-color: transparent;
   color: var(--color-blue);
   border-color: var(--color-blue);
 }
 
-.btn-ghost:hover {
+.btn-checkout:hover {
   color: var(--color-secondary);
 }
 
