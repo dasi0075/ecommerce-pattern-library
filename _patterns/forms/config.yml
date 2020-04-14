@@ -1,3 +1,61 @@
 title: "Forms"
 description: |
   Forms should be used when informations needs to be added.
+
+patterns:
+  forms:
+    title: "basic_required"
+    description: |
+      this will be used when it is required to fill
+    fields:
+      - name: 'basic_required'
+        type: 'string'
+        example: 'Full Name'
+
+    title: "basic"
+    description: |
+      this will be used when it is not required to fill
+    fields:
+      - name: 'basic'
+        type: 'string'
+        example: 'Address'
+
+    title: "color"
+    description: |
+      this will be used when client needs to select a colour
+    fields:
+      - name: 'color'
+        type: 'string'
+        example: 'black'
+
+    title: "email"
+    description: |
+      this will be used when client needs to add email
+    fields:
+      - name: 'email'
+        type: 'string'
+        example: 'email'
+
+    title: "quantity"
+    description: |
+      this will be used when it is required to fill the quantity.
+    fields:
+      - name: 'quantity'
+        type: 'string'
+        example: '1'
+
+    title: "select"
+    description: |
+      this will be used when it is required to select an option
+    fields:
+      - name: 'select'
+        type: 'string'
+        example: 'country'
+
+    title: "size"
+    description: |
+      this will be used when it is to select the size
+    fields:
+      - name: 'size'
+        type: 'string'
+        example: 'xs'
