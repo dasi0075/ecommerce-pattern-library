@@ -11,7 +11,7 @@ patterns:
     fields:
       - name: 'btn'
         type: 'string'
-        example: 'View Product'
+        example: 'Buy Now'
       - name: 'link'
         type: 'string'
         example: '#'
@@ -37,7 +37,7 @@ patterns:
     fields:
       - name: 'solid'
         type: 'string'
-        example: 'CHECKOUT'
+        example: 'Checkout'
       - name: 'link'
         type: 'string'
         example: '#'
