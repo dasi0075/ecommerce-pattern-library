@@ -1,3 +1,13 @@
 title: "Icons"
 description: |
   Icons should be used in situations where its needed like payments or checkout.
+
+patterns:
+  icons:
+    title: "icons"
+    description: |
+      this will be icons to be used in payment pages
+    fields:
+      - name: 'icons'
+        type: 'svg'
+        example: 'paypal.svg'

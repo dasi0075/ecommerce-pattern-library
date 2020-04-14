@@ -8,9 +8,37 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
+    fields:
+      - name: 'btn'
+        type: 'string'
+        example: 'View Product'
+      - name: 'link'
+        type: 'string'
+        example: '#'
 
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.
-    background: "--color-secondary"
+    background: "--color-purple"
+    fields:
+      - name: 'btn-alt'
+        type: 'string'
+        example: 'Learn More'
+      - name: 'link'
+        type: 'string'
+        example: '#'
+
+  checkout:
+    title: "Checkout"
+    description: |
+      Solid colour button, used only for actions involving the checkout process. This includes the "Checkout" and "Place Order" buttons.
+    width: "12em"
+    fields:
+      - name: 'solid'
+        type: 'string'
+        example: 'CHECKOUT'
+      - name: 'link'
+        type: 'string'
+        example: '#'
+    background: "--color-blue"

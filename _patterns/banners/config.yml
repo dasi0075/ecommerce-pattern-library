@@ -1,11 +1,11 @@
 patterns:
   banner:
     fields:
-      - name: heading
-        type: string
+      - name: 'heading'
+        type: 'string'
         example: "Art and Design Apparel"
-      - name: text
-        type: string
+      - name: 'text'
+        type: 'string'
         example: "An immersion of arts and entertainment in one piece"
 
   banner-nav:
@@ -15,4 +15,4 @@ patterns:
     fields:
       - name: 'products'
         type: 'string'
-        example: 'welcome'
+        example: "welcome"

@@ -1,11 +1,15 @@
+title: "Cards"
+description: |
+  Cards should be used to display products.
+
 patterns:
   product-card:
-    width: 400
+    width: 300
     description: |
-      Thre product card is used on the product listing page to display the Products
+      The product card is used on the product listing page to display the Products
     fields:
-      - name: data
-        type: object
+      - name: 'data'
+        type: 'form'
         data:
           source: "site.products[0]"
           type: Product

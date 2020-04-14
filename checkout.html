@@ -3,17 +3,22 @@ layout: default
 Title: Checkout
 ---
 
-  {% pattern banners/banner-nav products="Checkout" %}
+{% pattern banners/banner-nav products="Checkout" %}
 <div class="grid gutter pad-t pad-b">
   <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    <div class="pad-top">
-    {% pattern forms/size %}
-    {% pattern forms/quantity %}
-    {% pattern forms/color %}
+    <div class="pad-t pad-b">
+      <div class="gutter">
+        {% pattern forms/size %}
+      </div>
+      <div class="gutter">
+        {% pattern forms/quantity %}
+      </div>
+      <div class="gutter">
+        {% pattern forms/color %}
+      </div>
     </div>
   </div>
   <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern cards/product-card %}
-
+    {% pattern cards/cards %}
   </div>
 </div>

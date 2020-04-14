@@ -4,23 +4,24 @@ Title: Payment
 ---
   {% pattern banners/banner-nav products="Payment" %}
 <div class="gutter pad-t">
-  <h1 class="text-center">Payment</h1>
 
   <h2 class="text-center">Choose payment method below</h2>
 
-  <div class="grid">
-    <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+  <div class="grid gutter">
+    <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1 gutter">
       {% pattern forms/basic %}
       {% pattern forms/basic %}
       <div class="grid">
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
           {% pattern forms/basic %}
         </div>
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
           {% pattern forms/basic %}
         </div>
       </div>
+      <div class="">
       {% pattern forms/select %}
+      </div>
     </div>
     <div class="unit xs-1-2 s-1-2 m-1 l-1 xl-1">
       <div class="grid">
@@ -28,11 +29,10 @@ Title: Payment
           {% pattern forms/basic %}
         </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          <a class="icon-link exa" href="#">
+          <a class="icon-link" href="/images/credit_card.svg">
             <i class="icon i-1">
-              <svg><use xlink:href="/images/icons.svg#icon-id"></use></svg>
+              <svg><use xlink:href="/images/credit_card.svg"></use></svg>
             </i>
-            <span class="icon-label">Icon label</span>
           </a>
         </div>
       </div>
