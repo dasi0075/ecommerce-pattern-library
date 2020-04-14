@@ -3,8 +3,7 @@ layout: default
 Title: Checkout
 ---
 
-  <h1 class="text-center">Checkout</h1>
-
+  {% pattern banners/banner-nav products="Checkout" %}
 <div class="grid gutter pad-t pad-b">
   <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
     <div class="pad-top">
@@ -14,7 +13,7 @@ Title: Checkout
     </div>
   </div>
   <div class="gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern cards/cards %}
+    {% pattern cards/product-card %}
 
   </div>
 </div>

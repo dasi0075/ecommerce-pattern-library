@@ -8,7 +8,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 .nav-content {
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .welcome {
-  background-color: var(--color-blue);
+  background-color: rgba(70, 82, 124, .7);
   border-radius: 20px;
 }
 
@@ -78,6 +78,10 @@ input[type="checkbox"].nav-check + label::before {
   display: block;
   width: 100%;
   padding-top: 1.3em;
+}
+
+.nav-open {
+  padding-bottom: .5em;
 }
 
 .nav-close {

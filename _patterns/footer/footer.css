@@ -8,6 +8,10 @@ footer {
   font-family: Montserrat;
 }
 
+.privacy {
+  color: var(--color-secondary);
+}
+
 a:hover {
   var(--color-primary);
 }
