@@ -4,21 +4,21 @@ Title: Sales
 ---
   {% pattern banners/banner-nav products="Sales" %}
 <div class="gutter">
-  <div>
-    <h2>Bulk promotion Alert HERE<h2>
+  <div class="text-center">
+    <h2 class="text-center pad-t">Shop our products in Bulk w 25% OFF<h2>
       {% pattern buttons/basic %}
   </div>
-  <div class="grid">
+  <div class="grid wrapper pad-b">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      Product Card
+      {% pattern cards/cards %}
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      Product Card
+      {% pattern cards/cards %}
     </div>
   </div>
   <div>
-    <table class="gutter pad-left pad-right">
-      <h2>Bulk Pricing Table</h2>
+    <table class="gutter wrapper pad-left pad-right">
+      <h2 class="text-center">Bulk Pricing Table</h2>
       <thead>
         <tr>
           <th scope="col">Quantity</th>
