@@ -13,3 +13,7 @@
 table {
   background-color: rgba(206, 128, 138, .3);
 }
+
+.picked {
+  background-color: rgba(140, 90, 132, .3);
+}
