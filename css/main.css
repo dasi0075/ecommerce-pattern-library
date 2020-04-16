@@ -17,3 +17,7 @@ table {
 .picked {
   background-color: rgba(140, 90, 132, .3);
 }
+
+.payment {
+  font-family: Montserrat;
+}
