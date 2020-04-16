@@ -27,3 +27,17 @@
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+input, select {
+  border-color: var(--color-primary);
+  border-width: thin;
+  background-color: rgba(70, 82, 124, .1);
+}
+
+input:hover {
+  background-color: rgba(255, 251, 238, 1);
+}
+
+select:hover {
+  background-color: rgba(255, 251, 238, 1);
+}

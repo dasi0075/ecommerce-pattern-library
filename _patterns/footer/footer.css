@@ -15,3 +15,20 @@ footer {
 a:hover {
   var(--color-primary);
 }
+
+.emailinput {
+  border-color: var(--color-coral);
+  background-color: #fff;
+}
+
+.emailinput:hover {
+  background-color: var(--color-secondary);
+}
+
+.copyright {
+  font-family: Montserrat;
+}
+
+ul {
+  font-family: Montserrat;
+}

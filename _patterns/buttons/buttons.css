@@ -25,3 +25,16 @@
   border-color: var(--color-secondary);
   color: var(--color-primary);
 }
+
+.btn-subscribe {
+  background-color: var(--color-coral);
+  border-color: var(--color-coral);
+  border-width: thin;
+}
+
+.btn-subscribe:hover {
+  background-color: var(--color-blue);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-width: thin;
+}
